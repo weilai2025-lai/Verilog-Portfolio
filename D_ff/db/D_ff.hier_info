@@ -1,0 +1,39 @@
+|D_ff
+d => d.IN1
+clk => clk.IN1
+q <= D_Latch:d1.q
+q_bar <= D_Latch:d1.q_bar
+
+
+|D_ff|D_Latch:d0
+d => s0.IN0
+d => r0.IN0
+en => s0.IN1
+en => r0.IN1
+q <= SR_Latch:sr.q
+q_bar <= SR_Latch:sr.q_bar
+
+
+|D_ff|D_Latch:d0|SR_Latch:sr
+s => q.IN1
+r => q_bar.IN0
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q_bar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|D_ff|D_Latch:d1
+d => s0.IN0
+d => r0.IN0
+en => s0.IN1
+en => r0.IN1
+q <= SR_Latch:sr.q
+q_bar <= SR_Latch:sr.q_bar
+
+
+|D_ff|D_Latch:d1|SR_Latch:sr
+s => q.IN1
+r => q_bar.IN0
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q_bar.DB_MAX_OUTPUT_PORT_TYPE
+
+

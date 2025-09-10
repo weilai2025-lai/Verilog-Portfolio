@@ -1,0 +1,38 @@
+module PISPO(rst_p, clk, sw, ps, sout, pout, din, pin);
+parameter width = 4;
+input rst_p, clk, sw, ps, din;
+input [width-1:0]pin;
+output reg sout;
+output reg[width-1:0]pout;
+reg [width-1:0]sreg;
+reg sin;
+
+always @(posedge clk or posedge rst_p)
+begin
+	if(rst_p) begin
+		sreg <= 'd0;
+		end
+	else begin
+	if(ps) begin
+		sreg <= pin;
+		end
+		else begin
+		sreg <= {sreg[6:0], sin};
+		end
+	end
+end
+	
+		
+always @(*)
+begin
+	if(sw) begin
+		sin = din;
+		end
+	else begin
+		sin = sreg[width-1];
+		end
+end
+
+endmodule
+
+	

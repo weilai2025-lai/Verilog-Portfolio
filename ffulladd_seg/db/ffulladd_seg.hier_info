@@ -1,0 +1,70 @@
+|ffulladd_seg
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+m => m.IN5
+s[0] << fulladd_seg:f0.s
+s[1] << fulladd_seg:f1.s
+s[2] << fulladd_seg:f2.s
+s[3] << fulladd_seg:f3.s
+v << v.DB_MAX_OUTPUT_PORT_TYPE
+cout << fulladd_seg:f3.cout
+
+
+|ffulladd_seg|fulladd_seg:f0
+a => s.IN1
+a => cout.IN1
+a => cout.IN0
+b => nb.IN0
+m => nb.IN1
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ffulladd_seg|fulladd_seg:f1
+a => s.IN1
+a => cout.IN1
+a => cout.IN0
+b => nb.IN0
+m => nb.IN1
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ffulladd_seg|fulladd_seg:f2
+a => s.IN1
+a => cout.IN1
+a => cout.IN0
+b => nb.IN0
+m => nb.IN1
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ffulladd_seg|fulladd_seg:f3
+a => s.IN1
+a => cout.IN1
+a => cout.IN0
+b => nb.IN0
+m => nb.IN1
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+

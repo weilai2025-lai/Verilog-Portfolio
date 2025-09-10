@@ -1,0 +1,62 @@
+module register(data, en, clk, rst_p, address, addA, addB, readvalue);
+
+parameter width_in = 4;
+parameter width = 8;
+parameter width_out = 16;
+input [width_in-1:0]data;
+input [width-1:0]en;
+input [2:0]address;
+input clk, rst_p;
+output reg [width_out-1:0]addA, addB;
+output reg [width_in-1:0]readvalue;
+
+reg [width_in-1:0] reg_data[width-1:0];
+reg [width_in-1:0] reg_data_nxt[width-1:0];
+
+always @(posedge clk or posedge rst_p)
+begin
+	if(rst_p) begin
+		reg_data[0] <= 'd0;
+		reg_data[1] <= 'd0;
+		reg_data[2] <= 'd0;
+		reg_data[3] <= 'd0;
+		reg_data[4] <= 'd0;
+		reg_data[5] <= 'd0;
+		reg_data[6] <= 'd0;
+		reg_data[7] <= 'd0;
+		end
+	else begin
+		reg_data[0] <= reg_data_nxt[0];
+		reg_data[1] <= reg_data_nxt[1];
+		reg_data[2] <= reg_data_nxt[2];
+		reg_data[3] <= reg_data_nxt[3];
+		reg_data[4] <= reg_data_nxt[4];
+		reg_data[5] <= reg_data_nxt[5];
+		reg_data[6] <= reg_data_nxt[6];
+		reg_data[7] <= reg_data_nxt[7];
+		end
+end
+
+always @(*)
+begin
+	reg_data_nxt[0] = (en[0])?data:reg_data[0];
+	reg_data_nxt[1] = (en[1])?data:reg_data[1];
+	reg_data_nxt[2] = (en[2])?data:reg_data[2];
+	reg_data_nxt[3] = (en[3])?data:reg_data[3];
+	reg_data_nxt[4] = (en[4])?data:reg_data[4];
+	reg_data_nxt[5] = (en[5])?data:reg_data[5];
+	reg_data_nxt[6] = (en[6])?data:reg_data[6];
+	reg_data_nxt[7] = (en[7])?data:reg_data[7];
+end
+
+always @(*)
+begin
+	addA = {reg_data[3],reg_data[2],reg_data[1],reg_data[0]};
+	addB = {reg_data[7],reg_data[6],reg_data[5],reg_data[4]};
+	readvalue = reg_data[address];
+end
+
+endmodule
+
+
+

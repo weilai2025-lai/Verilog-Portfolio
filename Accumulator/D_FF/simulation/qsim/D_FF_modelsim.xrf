@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Verilog_training/Freq_div/D_FF/D_FF.v
+source_file = 1, C:/Verilog_training/Freq_div/D_FF/Waveform.vwf
+source_file = 1, C:/Verilog_training/Freq_div/D_FF/Waveform1.vwf
+source_file = 1, C:/Verilog_training/Freq_div/D_FF/db/D_FF.cbx.xml
+design_name = D_FF
+instance = comp, \dout~output , dout~output, D_FF, 1
+instance = comp, \clk~input , clk~input, D_FF, 1
+instance = comp, \din~input , din~input, D_FF, 1
+instance = comp, \dout~reg0feeder , dout~reg0feeder, D_FF, 1
+instance = comp, \dout~reg0 , dout~reg0, D_FF, 1

@@ -1,0 +1,35 @@
+|mux8
+a[0] => c.DATAA
+a[1] => c.DATAA
+a[2] => c.DATAA
+a[3] => c.DATAA
+a[4] => c.DATAA
+a[5] => c.DATAA
+a[6] => c.DATAA
+a[7] => c.DATAA
+b[0] => c.DATAB
+b[1] => c.DATAB
+b[2] => c.DATAB
+b[3] => c.DATAB
+b[4] => c.DATAB
+b[5] => c.DATAB
+b[6] => c.DATAB
+b[7] => c.DATAB
+sel => c.OUTPUTSELECT
+sel => c.OUTPUTSELECT
+sel => c.OUTPUTSELECT
+sel => c.OUTPUTSELECT
+sel => c.OUTPUTSELECT
+sel => c.OUTPUTSELECT
+sel => c.OUTPUTSELECT
+sel => c.OUTPUTSELECT
+c[0] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[5] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[6] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[7] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+

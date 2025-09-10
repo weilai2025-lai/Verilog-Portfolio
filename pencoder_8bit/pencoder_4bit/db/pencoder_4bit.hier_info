@@ -1,0 +1,15 @@
+|pencoder_4bit
+Din[0] => WideOr0.IN0
+Din[1] => Dout.IN0
+Din[1] => WideOr0.IN1
+Din[2] => Dout.IN0
+Din[2] => WideOr0.IN2
+Din[2] => Dout.IN1
+Din[3] => Dout.IN1
+Din[3] => Dout.IN1
+Din[3] => WideOr0.IN3
+Dout[0] <= Dout.DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Dout.DB_MAX_OUTPUT_PORT_TYPE
+valid <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

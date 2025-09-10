@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Verilog_training/fulladd_seg/fulladd_seg.v
+source_file = 1, C:/Verilog_training/fulladd_seg/db/fulladd_seg.cbx.xml
+design_name = fulladd_seg
+instance = comp, \cout~output\, cout~output, fulladd_seg, 1
+instance = comp, \s~output\, s~output, fulladd_seg, 1
+instance = comp, \cin~input\, cin~input, fulladd_seg, 1
+instance = comp, \m~input\, m~input, fulladd_seg, 1
+instance = comp, \b~input\, b~input, fulladd_seg, 1
+instance = comp, \a~input\, a~input, fulladd_seg, 1
+instance = comp, \cout~0\, cout~0, fulladd_seg, 1
+instance = comp, \s~0\, s~0, fulladd_seg, 1

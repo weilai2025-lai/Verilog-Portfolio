@@ -1,0 +1,12 @@
+|bounce_avoid
+din => current.s0.DATAIN
+din => next.s1.DATAB
+din => next.s2.DATAB
+din => next.s3.DATAB
+din => next.s4.DATAB
+din => Selector0.IN1
+clk => current~1.DATAIN
+rst_p => current~3.DATAIN
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+

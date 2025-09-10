@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\SR_Latchbev\simulation\qsim
+vSR_Latchbev
+!i10b 1
+!s100 M1j^cVE`3Jzcd9DdN=6891
+INGihIOI[Y3cjP2z_D]T?h3
+Z1 Vh]RG<@IXGA4Cm5WG5A9IR2
+Z2 dC:\Verilog_training\SR_Latchbev\simulation\qsim
+w1750166225
+8C:/Verilog_training/SR_Latchbev/SR_Latchbev.v
+FC:/Verilog_training/SR_Latchbev/SR_Latchbev.v
+L0 1
+Z3 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1750227314.424000
+!s107 C:/Verilog_training/SR_Latchbev/SR_Latchbev.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Verilog_training/SR_Latchbev|C:/Verilog_training/SR_Latchbev/SR_Latchbev.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Verilog_training/SR_Latchbev -O0
+Z4 n@s@r_@latchbev

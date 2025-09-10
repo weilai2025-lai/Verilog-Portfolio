@@ -1,0 +1,10 @@
+module fulladd_clg(a, b, cin, s, g, p);
+
+input a, b, cin;
+output g, p, s;
+
+assign g = a&b;
+assign p = a|b;
+assign s = a ^ b ^ cin;
+
+endmodule;

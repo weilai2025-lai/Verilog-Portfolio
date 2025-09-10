@@ -1,0 +1,103 @@
+|ffulladd_clg
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => cin.IN2
+cout <= clg:clg0.cout
+s[0] <= fulladd_clg:f0.s
+s[1] <= fulladd_clg:f1.s
+s[2] <= fulladd_clg:f2.s
+s[3] <= fulladd_clg:f3.s
+
+
+|ffulladd_clg|fulladd_clg:f0
+a => g.IN0
+a => p.IN0
+a => s.IN0
+b => g.IN1
+b => p.IN1
+b => s.IN1
+c => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ffulladd_clg|fulladd_clg:f1
+a => g.IN0
+a => p.IN0
+a => s.IN0
+b => g.IN1
+b => p.IN1
+b => s.IN1
+c => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ffulladd_clg|fulladd_clg:f2
+a => g.IN0
+a => p.IN0
+a => s.IN0
+b => g.IN1
+b => p.IN1
+b => s.IN1
+c => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ffulladd_clg|fulladd_clg:f3
+a => g.IN0
+a => p.IN0
+a => s.IN0
+b => g.IN1
+b => p.IN1
+b => s.IN1
+c => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ffulladd_clg|clg:clg0
+cin => c0.IN0
+cin => c1.IN1
+cin => c2.IN1
+cin => cout.IN1
+g[0] => c0.IN1
+g[0] => c1.IN0
+g[0] => c2.IN1
+g[0] => cout.IN1
+g[1] => c1.IN1
+g[1] => c2.IN0
+g[1] => cout.IN1
+g[2] => c2.IN1
+g[2] => cout.IN0
+g[3] => cout.IN1
+p[0] => c0.IN1
+p[0] => c1.IN0
+p[0] => c2.IN1
+p[0] => cout.IN1
+p[1] => c1.IN1
+p[1] => c1.IN1
+p[1] => c2.IN0
+p[1] => cout.IN1
+p[2] => c2.IN1
+p[2] => c2.IN1
+p[2] => cout.IN0
+p[3] => cout.IN1
+p[3] => cout.IN1
+c0 <= c0.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= c2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

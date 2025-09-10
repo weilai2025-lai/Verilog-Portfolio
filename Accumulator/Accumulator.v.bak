@@ -1,0 +1,6 @@
+module Accumulator(a, b, clk, en, rst, dout);
+
+input [7:0]a, b;
+input clk, en, rst;
+output [7:0] dout;
+

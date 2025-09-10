@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\seven_segnent\simulation\qsim
+vseven_segnent
+Z1 !s100 J_cH0Vc6b@HV@m0PE>9a92
+Z2 IQXOZ<aRTbK0KUTI0N8=b53
+Z3 VBaTiFJ4G^]4>[lKfnzJJf3
+Z4 dC:\Verilog_training\seven_segnent\simulation\qsim
+Z5 w1749126212
+Z6 8seven_segnent.vo
+Z7 Fseven_segnent.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|seven_segnent.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1749126212.753000
+Z12 !s107 seven_segnent.vo|
+!s101 -O0
+vseven_segnent_vlg_check_tst
+!i10b 1
+Z13 !s100 0c?TdKdeR3^DDCi`<n<9B2
+Z14 I8]TIO5k3ULZOVKMfd7?FY3
+Z15 V:hBJmKeF8NG@SCAo7F02k1
+R4
+Z16 w1749126211
+Z17 8seven_segnent.vwf.vt
+Z18 Fseven_segnent.vwf.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z19 !s108 1749126212.802000
+Z20 !s107 seven_segnent.vwf.vt|
+Z21 !s90 -work|work|seven_segnent.vwf.vt|
+!s101 -O0
+R10
+vseven_segnent_vlg_sample_tst
+!i10b 1
+Z22 !s100 8i:cm2W4aY;N5@NAfPnWb2
+Z23 IlEE_omR`n<hjkzPg^4CEe0
+Z24 VB5WUeTe^zIzSn=a=h@0Sk1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vseven_segnent_vlg_vec_tst
+!i10b 1
+!s100 6e_[;JokofmJj]Q[d^Rm`3
+IzmiT6ON2EASnZJL^e3QUg2
+Z25 VA]4H5cUe4M[X6Q;YN@b;[3
+R4
+R16
+R17
+R18
+Z26 L0 259
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

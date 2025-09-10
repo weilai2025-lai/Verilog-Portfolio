@@ -1,0 +1,25 @@
+|PISPO
+rst_p => sreg[0].ACLR
+rst_p => sreg[1].ACLR
+rst_p => sreg[2].ACLR
+rst_p => sreg[3].ACLR
+clk => sreg[0].CLK
+clk => sreg[1].CLK
+clk => sreg[2].CLK
+clk => sreg[3].CLK
+sw => Decoder0.IN0
+sw => Mux0.IN0
+ps => Decoder0.IN1
+ps => Mux0.IN1
+sout <= sreg[3].DB_MAX_OUTPUT_PORT_TYPE
+pout[0] <= sreg[0].DB_MAX_OUTPUT_PORT_TYPE
+pout[1] <= sreg[1].DB_MAX_OUTPUT_PORT_TYPE
+pout[2] <= sreg[2].DB_MAX_OUTPUT_PORT_TYPE
+pout[3] <= sreg[3].DB_MAX_OUTPUT_PORT_TYPE
+din => Mux0.IN2
+pin[0] => Mux0.IN3
+pin[1] => snext[1].DATAB
+pin[2] => snext[2].DATAB
+pin[3] => snext[3].DATAB
+
+

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\pencoder_8bit\mux2to1\simulation\qsim
+vmux2to1
+Z1 !s100 DY:BBjAdDGYef<:nQ7iTA0
+Z2 I5]]5gPX@;4DX>IPObIOXA2
+Z3 V_g:?mg0WczbeB0XB<C^9d0
+Z4 dC:\Verilog_training\pencoder_8bit\mux2to1\simulation\qsim
+Z5 w1749875447
+Z6 8mux2to1.vo
+Z7 Fmux2to1.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|mux2to1.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1749875447.639000
+Z12 !s107 mux2to1.vo|
+!s101 -O0
+vmux2to1_vlg_check_tst
+!i10b 1
+!s100 3^12Q6B@^b?AOVDA4bIac0
+I;Ha@1;@I_b0P;jXSad?FF3
+Z13 VQlIBGW2T9^L19FjNMTMF@2
+R4
+Z14 w1749875446
+Z15 8Waveform2.vwf.vt
+Z16 FWaveform2.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z17 !s108 1749875447.687000
+Z18 !s107 Waveform2.vwf.vt|
+Z19 !s90 -work|work|Waveform2.vwf.vt|
+!s101 -O0
+R10
+vmux2to1_vlg_sample_tst
+!i10b 1
+!s100 W;zQ1_j18:fJi9NIc_5Ez0
+I371Ie]ZA[8T[Nl[5]OiKD2
+Z20 Vk@kF5CCl7[=R@P;6Z13_H0
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vmux2to1_vlg_vec_tst
+!i10b 1
+!s100 7m^>Wl3H`MZH[5<g<QRS<2
+IL8]4H_OmCi0QjDXfhL1Lz2
+Z21 VAA7G9lTjmScoKYdaT6RX]1
+R4
+R14
+R15
+R16
+Z22 L0 173
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10

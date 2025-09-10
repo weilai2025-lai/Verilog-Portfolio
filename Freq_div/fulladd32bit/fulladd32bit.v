@@ -1,0 +1,13 @@
+module fulladd32bit(cin, a, b, s, cout);
+
+input cin;
+input [31:0]a, b;
+output [31:0]s;
+output cout;
+
+wire c;
+
+fulladd16bit f0(.cin(cin),.a(a[15:0]),.b(b[15:0]),.s(s[15:0]),.cout(c));
+fulladd16bit f1(.cin(c),.a(a[31:16]),.b(b[31:16]),.s(s[31:16]),.cout(cout));
+
+endmodule

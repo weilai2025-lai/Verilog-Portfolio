@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\count111_improved\simulation\qsim
+vcount111_improved
+!i10b 1
+!s100 YLKC3<5BS^ALe14KP7H=H2
+IiNRR_cZPibT_nhg`SMY661
+Z1 V2JIAC7mZlWdz8B=]O?n_13
+Z2 dC:\Verilog_training\count111_improved\simulation\qsim
+w1750919950
+8C:/Verilog_training/count111_improved/count111_improved.v
+FC:/Verilog_training/count111_improved/count111_improved.v
+L0 1
+Z3 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1750925313.762000
+!s107 C:/Verilog_training/count111_improved/count111_improved.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Verilog_training/count111_improved|C:/Verilog_training/count111_improved/count111_improved.v|
+!s101 -O0
+Z4 o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Verilog_training/count111_improved -O0
+vcount111_mealy
+Ih_>lDYEhKSo8z^L7FB8n52
+VNX0z3GgWZ`Pb5X1c?cTRl2
+R2
+w1750917596
+8C:/Verilog_training/count111_mealy/count111_mealy.v
+FC:/Verilog_training/count111_mealy/count111_mealy.v
+L0 1
+R3
+r1
+31
+R4
+!i10b 1
+!s100 0<EO5>bQ^GQ732RVE`DHA1
+!s85 0
+!s108 1750925313.644000
+!s107 C:/Verilog_training/count111_mealy/count111_mealy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Verilog_training/count111_mealy|C:/Verilog_training/count111_mealy/count111_mealy.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Verilog_training/count111_mealy -O0

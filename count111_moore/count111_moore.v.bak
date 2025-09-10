@@ -1,0 +1,70 @@
+module count111_moore(clk, one_in, rst_p, result);
+input clk, one_in, rst_p;
+output reg[1:0]result;
+reg [1:0]current, next;
+parameter s0 = 2'd0;
+parameter s1 = 2'd1;
+parameter s2 = 2'd2;
+parameter s3 = 2'd3;
+
+always @(posedge clk or posedge rst_p)
+begin
+	if(rst_p) begin
+	current <= s0;
+	end
+	else begin
+	current <= next;
+	end
+end
+
+always @(*)
+begin
+	case(current)
+	s0: begin if(one_in == 1)begin
+	next = s1;
+	end
+	else begin
+	next = s0;
+	end
+	end
+	
+	s1: begin if(one_in == 1)begin
+	next = s2;
+	end
+	else begin
+	next = s0;
+	end
+	end
+	
+	s2: begin if(one_in == 1)begin
+	next = s3;
+	end
+	else begin
+	next = s0;
+	end
+	end
+	
+	s3: begin if(one_in == 1)begin
+	next = s3;
+	end
+	else begin
+	next = s0;
+	end
+	end
+	endcase
+end
+
+always @(*)
+begin
+	case(current)
+	s0: result = 2'd0;
+	s1: result = 2'd1;
+	s2: result = 2'd2;
+	s3: result = 2'd3;
+	endcase
+end
+endmodule
+
+
+	
+	

@@ -1,0 +1,24 @@
+# do D_Latch.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module D_Latch
+# 
+# Top level modules:
+# 	D_Latch
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module D_Latch_vlg_sample_tst
+# -- Compiling module D_Latch_vlg_check_tst
+# -- Compiling module D_Latch_vlg_vec_tst
+# 
+# Top level modules:
+# 	D_Latch_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.D_Latch_vlg_vec_tst 
+# Loading work.D_Latch_vlg_vec_tst
+# Loading work.D_Latch
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading work.D_Latch_vlg_sample_tst
+# Loading work.D_Latch_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : Waveform.vwf.vt(177)
+#    Time: 160 ns  Iteration: 0  Instance: /D_Latch_vlg_vec_tst/tb_out

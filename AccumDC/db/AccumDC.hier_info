@@ -1,0 +1,61 @@
+|AccumDC
+btn => btn.IN1
+clk => clk.IN1
+rst_p => rst_p.IN2
+dout[0] << accum:a0.dout
+dout[1] << accum:a0.dout
+dout[2] << accum:a0.dout
+dout[3] << accum:a0.dout
+dout[4] << accum:a0.dout
+dout[5] << accum:a0.dout
+dout[6] << accum:a0.dout
+dout[7] << accum:a0.dout
+
+
+|AccumDC|bounce_avoid:b0
+din => current.s0.DATAIN
+din => next.s1.DATAB
+din => next.s2.DATAB
+din => next.s3.DATAB
+din => next.s4.DATAB
+din => Selector0.IN1
+clk => current~1.DATAIN
+rst_p => current~3.DATAIN
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AccumDC|accum:a0
+clk => dout[0]~reg0.CLK
+clk => dout[1]~reg0.CLK
+clk => dout[2]~reg0.CLK
+clk => dout[3]~reg0.CLK
+clk => dout[4]~reg0.CLK
+clk => dout[5]~reg0.CLK
+clk => dout[6]~reg0.CLK
+clk => dout[7]~reg0.CLK
+rst_p => dout[0]~reg0.ACLR
+rst_p => dout[1]~reg0.ACLR
+rst_p => dout[2]~reg0.ACLR
+rst_p => dout[3]~reg0.ACLR
+rst_p => dout[4]~reg0.ACLR
+rst_p => dout[5]~reg0.ACLR
+rst_p => dout[6]~reg0.ACLR
+rst_p => dout[7]~reg0.ACLR
+en => dout[7]~reg0.ENA
+en => dout[6]~reg0.ENA
+en => dout[5]~reg0.ENA
+en => dout[4]~reg0.ENA
+en => dout[3]~reg0.ENA
+en => dout[2]~reg0.ENA
+en => dout[1]~reg0.ENA
+en => dout[0]~reg0.ENA
+dout[0] <= dout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[1] <= dout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[2] <= dout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[3] <= dout[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[4] <= dout[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[5] <= dout[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[6] <= dout[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[7] <= dout[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

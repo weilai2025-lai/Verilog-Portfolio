@@ -1,0 +1,8 @@
+|FSM
+clk => current_state.CLK
+rst_n => current_state.ACLR
+button => current_state.DATAIN
+button => door_action.DATAIN
+door_action <= button.DB_MAX_OUTPUT_PORT_TYPE
+
+

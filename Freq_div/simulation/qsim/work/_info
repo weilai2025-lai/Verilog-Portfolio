@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\Freq_div\simulation\qsim
+vFreq_div
+Z1 In]:HS<HDSHdYEoY>]mdOA1
+Z2 VAAM@9jllOcidJdfk`eFjD2
+Z3 dC:\Verilog_training\Freq_div\simulation\qsim
+Z4 w1750662501
+Z5 8Freq_div.vo
+Z6 FFreq_div.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Freq_div.vo|
+Z9 o-work work -O0
+Z10 n@freq_div
+!i10b 1
+Z11 !s100 D]7J_20GKHAF[^S:FceW=2
+!s85 0
+Z12 !s108 1750662502.045000
+Z13 !s107 Freq_div.vo|
+!s101 -O0
+vFreq_div_vlg_check_tst
+!i10b 1
+!s100 6iFaMISGO8aXN]BO36<j;3
+I^;7EnFG[^n1hLQNA=l3cD3
+VKdif24nX3;ckKaRfX>81h1
+R3
+Z14 w1750662500
+Z15 8Waveform11.vwf.vt
+Z16 FWaveform11.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1750662502.111000
+Z18 !s107 Waveform11.vwf.vt|
+Z19 !s90 -work|work|Waveform11.vwf.vt|
+!s101 -O0
+R9
+Z20 n@freq_div_vlg_check_tst
+vFreq_div_vlg_sample_tst
+!i10b 1
+!s100 Jk6R3IfE[dA]V1[0a[i:E1
+IDV?dHS512@NYNg[B5]>_I1
+Z21 VnATXdRR7KQISabaiMKlMD0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z22 n@freq_div_vlg_sample_tst
+vFreq_div_vlg_vec_tst
+!i10b 1
+!s100 maKbHhQP2II5OanFBbC=41
+IVDD2;;[3WWHi58a<@0:Q81
+Z23 VGh<mknW2CFW]d1i6KP:J:3
+R3
+R14
+R15
+R16
+L0 794
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z24 n@freq_div_vlg_vec_tst

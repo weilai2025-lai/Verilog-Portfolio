@@ -1,0 +1,34 @@
+|cla
+g[0] => c.IN1
+g[0] => c.IN0
+g[0] => c.IN1
+g[0] => cout.IN1
+g[1] => c.IN1
+g[1] => c.IN0
+g[1] => cout.IN1
+g[2] => c.IN1
+g[2] => cout.IN0
+g[3] => cout.IN1
+p[0] => c.IN0
+p[0] => c.IN0
+p[0] => c.IN1
+p[0] => cout.IN1
+p[1] => c.IN1
+p[1] => c.IN1
+p[1] => c.IN0
+p[1] => cout.IN1
+p[2] => c.IN1
+p[2] => c.IN1
+p[2] => cout.IN0
+p[3] => cout.IN1
+p[3] => cout.IN1
+cin => c.IN1
+cin => c.IN1
+cin => c.IN1
+cin => cout.IN1
+c[0] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

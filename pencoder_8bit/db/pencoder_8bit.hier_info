@@ -1,0 +1,55 @@
+|pencoder_8bit
+Din[0] => Din[0].IN1
+Din[1] => Din[1].IN1
+Din[2] => Din[2].IN1
+Din[3] => Din[3].IN1
+Din[4] => Din[4].IN1
+Din[5] => Din[5].IN1
+Din[6] => Din[6].IN1
+Din[7] => Din[7].IN1
+Dout[0] <= mux2to1:m0.c
+Dout[1] <= mux2to1:m0.c
+Dout[2] <= valid0.DB_MAX_OUTPUT_PORT_TYPE
+valid <= valid.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pencoder_8bit|pencoder_4bit:p0
+Din[0] => WideOr0.IN0
+Din[1] => Dout.IN0
+Din[1] => WideOr0.IN1
+Din[2] => Dout.IN0
+Din[2] => WideOr0.IN2
+Din[2] => Dout.IN1
+Din[3] => Dout.IN1
+Din[3] => Dout.IN1
+Din[3] => WideOr0.IN3
+Dout[0] <= Dout.DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Dout.DB_MAX_OUTPUT_PORT_TYPE
+valid <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pencoder_8bit|pencoder_4bit:p1
+Din[0] => WideOr0.IN0
+Din[1] => Dout.IN0
+Din[1] => WideOr0.IN1
+Din[2] => Dout.IN0
+Din[2] => WideOr0.IN2
+Din[2] => Dout.IN1
+Din[3] => Dout.IN1
+Din[3] => Dout.IN1
+Din[3] => WideOr0.IN3
+Dout[0] <= Dout.DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Dout.DB_MAX_OUTPUT_PORT_TYPE
+valid <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pencoder_8bit|mux2to1:m0
+a[0] => c.DATAB
+a[1] => c.DATAB
+b[0] => c.DATAA
+b[1] => c.DATAA
+sel => Decoder0.IN0
+c[0] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\srdisplay\simulation\qsim
+vsrdisplay
+Z1 IPHf<EJH2>BHo?84hnlm513
+Z2 VB9acFQUWP6lU^An695:[C0
+Z3 dC:\Verilog_training\srdisplay\simulation\qsim
+Z4 w1751093848
+Z5 8srdisplay.vo
+Z6 Fsrdisplay.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|srdisplay.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 N]@SDP[FdBOe;C18Z=z4b3
+!s85 0
+Z11 !s108 1751093848.684000
+Z12 !s107 srdisplay.vo|
+!s101 -O0
+vsrdisplay_vlg_check_tst
+!i10b 1
+!s100 EhJNMcdf3f9`_gb:XULnm3
+ILX;=2978@==TdhNDG[P8S1
+Vfl9KRVj5b52Tg7=d5=4j90
+R3
+Z13 w1751093847
+Z14 8Waveform1.vwf.vt
+Z15 FWaveform1.vwf.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z16 !s108 1751093848.728000
+Z17 !s107 Waveform1.vwf.vt|
+Z18 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R9
+vsrdisplay_vlg_sample_tst
+!i10b 1
+!s100 <;^OOz3e>g>JLodNa[RV80
+I`cH58nR:4D`zeW>RAl]D;0
+Z19 VO:i?SQB4S`97^Zim8N7j<0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
+vsrdisplay_vlg_vec_tst
+!i10b 1
+!s100 ^8?la2CNPOzI@me25kYQ_0
+I`o=K__68fcZjR9Sf;zkoM2
+Z20 V1JKWShT]RK8VUkc=ed`oh0
+R3
+R13
+R14
+R15
+L0 337
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9

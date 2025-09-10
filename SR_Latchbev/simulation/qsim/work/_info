@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\SR_Latchbev\simulation\qsim
+vSR_Latchbev
+Z1 Ine5`NJAPe[K;Gn@JLk85D1
+Z2 Vh]RG<@IXGA4Cm5WG5A9IR2
+Z3 dC:\Verilog_training\SR_Latchbev\simulation\qsim
+Z4 w1750166265
+Z5 8SR_Latchbev.vo
+Z6 FSR_Latchbev.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|SR_Latchbev.vo|
+Z9 o-work work -O0
+Z10 n@s@r_@latchbev
+!i10b 1
+Z11 !s100 1abM]DRe2b9_k7>[e`Bo11
+!s85 0
+Z12 !s108 1750166265.673000
+Z13 !s107 SR_Latchbev.vo|
+!s101 -O0
+vSR_Latchbev_vlg_check_tst
+!i10b 1
+!s100 ?>@A@8;1ELE8ljcQVKfIW1
+IHUjaK3<MR`9?f40;RzQOX0
+Z14 VTNbBnC6@f>K9@T2mT;OUP2
+R3
+Z15 w1750166263
+Z16 8Waveform6.vwf.vt
+Z17 FWaveform6.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z18 !s108 1750166265.717000
+Z19 !s107 Waveform6.vwf.vt|
+Z20 !s90 -work|work|Waveform6.vwf.vt|
+!s101 -O0
+R9
+Z21 n@s@r_@latchbev_vlg_check_tst
+vSR_Latchbev_vlg_sample_tst
+!i10b 1
+!s100 mT]T??3kHU9CLfEBc@W;@2
+IOY=Ao3AnEAHLmGB8Zm1m@2
+Z22 VBQCnO0>UaX9>C3]7GhAcN2
+R3
+R15
+R16
+R17
+L0 29
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z23 n@s@r_@latchbev_vlg_sample_tst
+vSR_Latchbev_vlg_vec_tst
+!i10b 1
+!s100 DEC?ofMSN@S[J<H>nY2cE3
+Id3C]m:^fDMUh>gj^GKTl@3
+Z24 V=k145HbKl?YKA?gnle5`d1
+R3
+R15
+R16
+R17
+Z25 L0 181
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z26 n@s@r_@latchbev_vlg_vec_tst

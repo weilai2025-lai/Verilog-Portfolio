@@ -1,0 +1,88 @@
+$comment
+	File created using the following command:
+		vcd file SR_Latchbev.msim.vcd -direction
+$end
+$date
+	Tue Jun 17 21:17:46 2025
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module SR_Latchbev_vlg_vec_tst $end
+$var reg 1 ! r $end
+$var reg 1 " s $end
+$var wire 1 # q $end
+$var wire 1 $ q_bar $end
+$var wire 1 % sampler $end
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , q~output_o $end
+$var wire 1 - q_bar~output_o $end
+$var wire 1 . r~input_o $end
+$var wire 1 / s~input_o $end
+$var wire 1 0 comb~1_combout $end
+$var wire 1 1 comb~0_combout $end
+$var wire 1 2 q$latch~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x#
+x$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+x,
+x-
+0.
+0/
+10
+11
+x2
+$end
+#10000
+1"
+1/
+0%
+00
+12
+1,
+0-
+1#
+0$
+#20000
+0"
+0/
+1%
+10
+#30000
+1!
+1.
+0%
+01
+02
+0,
+1-
+0#
+1$
+#40000
+0!
+0.
+1%
+11
+#1000000

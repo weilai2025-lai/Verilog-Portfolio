@@ -1,0 +1,24 @@
+# do fulladd32bit.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fulladd32bit
+# 
+# Top level modules:
+# 	fulladd32bit
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fulladd32bit_vlg_sample_tst
+# -- Compiling module fulladd32bit_vlg_check_tst
+# -- Compiling module fulladd32bit_vlg_vec_tst
+# 
+# Top level modules:
+# 	fulladd32bit_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.fulladd32bit_vlg_vec_tst 
+# Loading work.fulladd32bit_vlg_vec_tst
+# Loading work.fulladd32bit
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading work.fulladd32bit_vlg_sample_tst
+# Loading work.fulladd32bit_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : Waveform.vwf.vt(736)
+#    Time: 20 ns  Iteration: 0  Instance: /fulladd32bit_vlg_vec_tst/tb_out

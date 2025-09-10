@@ -1,0 +1,31 @@
+module BCDADD(a,b,s,cout);
+parameter width_low = 4;
+parameter width_high = 8;
+input [width_high-1:0]a,b;
+output [width_high-1:0]s;
+output cout;
+wire [width_low-1:0]CLA_slow,CLA_shigh,add6_slow,add6_shigh,mux_low,mux_high;
+wire CLA_clow,CLA_chigh,add6_clow,add6_chigh,mux_sellow,mux_selhigh;
+assign mux_sellow = CLA_clow|add6_clow;
+assign mux_selhigh = CLA_chigh|add6_chigh;
+assign s[width_low-1:0] = mux_low;
+assign s[width_high-1:width_low] = mux_high;
+
+CLA c_low(.a(a[width_low-1:0])
+          ,.b(b[width_low-1:0])
+			 ,.cin(1'b0)
+			 ,.s(CLA_slow)
+			 ,.cout(CLA_clow));
+add6 a_low(.din(CLA_slow),.dout(add6_slow),.cout(add6_clow));
+mux4 m_low(.a(CLA_slow),.b(add6_slow),.sel(mux_sellow),.c(mux_low));
+
+CLA c_high(.a(a[width_high-1:width_low])
+          ,.b(b[width_high-1:width_low])
+			 ,.cin(mux_sellow)
+			 ,.s(CLA_shigh)
+			 ,.cout(CLA_chigh));
+add6 a_high(.din(CLA_shigh),.dout(add6_shigh),.cout(add6_chigh));
+mux4 m_high(.a(CLA_shigh),.b(add6_shigh),.sel(mux_selhigh),.c(mux_high));
+
+endmodule
+

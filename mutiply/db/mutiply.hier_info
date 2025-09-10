@@ -1,0 +1,12 @@
+|mutiply
+a[0] => uout.IN0
+a[1] => ~NO_FANOUT~
+a[2] => ~NO_FANOUT~
+a[3] => ~NO_FANOUT~
+b => uout.IN1
+uout[0] <= uout.DB_MAX_OUTPUT_PORT_TYPE
+uout[1] <= <GND>
+uout[2] <= <GND>
+uout[3] <= <GND>
+
+

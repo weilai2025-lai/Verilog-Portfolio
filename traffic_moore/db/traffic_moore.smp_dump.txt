@@ -1,0 +1,6 @@
+
+State Machine - |traffic_moore|current
+Name current.state_G current.state_R current.state_Y 
+current.state_Y 0 0 0 
+current.state_G 1 0 1 
+current.state_R 0 1 1 

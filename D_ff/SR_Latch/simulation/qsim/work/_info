@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\D_ff\SR_Latch\simulation\qsim
+vSR_Latch
+Z1 IS2zVUdJQD]a=J=ofB9VY12
+Z2 VAM7a65XPfRGh0j:HNdENV1
+Z3 dC:\Verilog_training\D_ff\SR_Latch\simulation\qsim
+Z4 w1750079786
+Z5 8SR_Latch.vo
+Z6 FSR_Latch.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|SR_Latch.vo|
+Z9 o-work work -O0
+Z10 n@s@r_@latch
+!i10b 1
+Z11 !s100 TI01DCfjjJ1Q:dCXgOeoV2
+!s85 0
+Z12 !s108 1750079787.889000
+Z13 !s107 SR_Latch.vo|
+!s101 -O0
+vSR_Latch_vlg_check_tst
+!i10b 1
+Z14 !s100 [45aeN]RL1lOe[DgclnVX2
+Z15 IS=0`f<e;iF?8ggF^dVC][1
+Z16 V3cmGM00WUa=;;mASI4Vb>3
+R3
+Z17 w1750079785
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z20 !s108 1750079787.970000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+Z23 n@s@r_@latch_vlg_check_tst
+vSR_Latch_vlg_sample_tst
+!i10b 1
+Z24 !s100 mYefXYBCUGBjGmIX2L0<F0
+Z25 I:ZdoUFC8hCF@SLIDX;C^d3
+Z26 V5=gUDKoMEmX]mQ8C`0ja?0
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@s@r_@latch_vlg_sample_tst
+vSR_Latch_vlg_vec_tst
+!i10b 1
+Z28 !s100 7EZIBnbljGWgzZnVX7Q6@1
+Z29 Iad]CAAz`Q=2R2jVD``dX62
+Z30 V:USeoIMN8>If6f3HNFh<03
+R3
+R17
+R18
+R19
+Z31 L0 181
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@s@r_@latch_vlg_vec_tst

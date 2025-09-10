@@ -1,0 +1,59 @@
+|srdisplay
+rst_p => rst_p.IN2
+clk => clk.IN2
+btn => btn.IN1
+sw => sw.IN1
+pout[0] <= shiftreg:s0.pout
+pout[1] <= shiftreg:s0.pout
+pout[2] <= shiftreg:s0.pout
+pout[3] <= shiftreg:s0.pout
+pout[4] <= shiftreg:s0.pout
+pout[5] <= shiftreg:s0.pout
+pout[6] <= shiftreg:s0.pout
+pout[7] <= shiftreg:s0.pout
+sout <= shiftreg:s0.sout
+bounce_out <= bounce_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|srdisplay|bounce_avoid:b0
+din => current.s0.DATAIN
+din => next.s1.DATAB
+din => next.s2.DATAB
+din => next.s3.DATAB
+din => next.s4.DATAB
+din => Selector0.IN1
+clk => current~1.DATAIN
+rst_p => current~3.DATAIN
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|srdisplay|shiftreg:s0
+clk => sreg[0].CLK
+clk => sreg[1].CLK
+clk => sreg[2].CLK
+clk => sreg[3].CLK
+clk => sreg[4].CLK
+clk => sreg[5].CLK
+clk => sreg[6].CLK
+clk => sreg[7].CLK
+din => sin.DATAB
+sw => sin.OUTPUTSELECT
+rst_p => sreg[0].ACLR
+rst_p => sreg[1].ACLR
+rst_p => sreg[2].ACLR
+rst_p => sreg[3].ACLR
+rst_p => sreg[4].ACLR
+rst_p => sreg[5].ACLR
+rst_p => sreg[6].ACLR
+rst_p => sreg[7].ACLR
+pout[0] <= sreg[0].DB_MAX_OUTPUT_PORT_TYPE
+pout[1] <= sreg[1].DB_MAX_OUTPUT_PORT_TYPE
+pout[2] <= sreg[2].DB_MAX_OUTPUT_PORT_TYPE
+pout[3] <= sreg[3].DB_MAX_OUTPUT_PORT_TYPE
+pout[4] <= sreg[4].DB_MAX_OUTPUT_PORT_TYPE
+pout[5] <= sreg[5].DB_MAX_OUTPUT_PORT_TYPE
+pout[6] <= sreg[6].DB_MAX_OUTPUT_PORT_TYPE
+pout[7] <= sreg[7].DB_MAX_OUTPUT_PORT_TYPE
+sout <= sreg[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

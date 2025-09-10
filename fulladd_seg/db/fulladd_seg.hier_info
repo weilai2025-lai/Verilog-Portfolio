@@ -1,0 +1,13 @@
+|fulladd_seg
+a => s.IN1
+a => cout.IN1
+a => cout.IN0
+b => nb.IN0
+m => nb.IN1
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+

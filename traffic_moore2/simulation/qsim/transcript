@@ -1,0 +1,61 @@
+# do traffic_moore2.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module traffic_moore2
+# 
+# Top level modules:
+# 	traffic_moore2
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module traffic_moore2_vlg_sample_tst
+# -- Compiling module traffic_moore2_vlg_check_tst
+# -- Compiling module traffic_moore2_vlg_vec_tst
+# 
+# Top level modules:
+# 	traffic_moore2_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.traffic_moore2_vlg_vec_tst 
+# Loading work.traffic_moore2_vlg_vec_tst
+# Loading work.traffic_moore2
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.traffic_moore2_vlg_sample_tst
+# Loading work.traffic_moore2_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# ERROR! Vector Mismatch for output port count[0] :: @time = 160000.000 ps
+#      Expected value = 0000
+#      Real value = 0101
+# ERROR! Vector Mismatch for output port count[2] :: @time = 160000.000 ps
+#      Expected value = 0000
+#      Real value = 0101
+# ERROR! Vector Mismatch for output port lightA[2] :: @time = 160000.000 ps
+#      Expected value = 000
+#      Real value = 100
+# ERROR! Vector Mismatch for output port lightB[0] :: @time = 160000.000 ps
+#      Expected value = 000
+#      Real value = 001
+# ERROR! Vector Mismatch for output port count[1] :: @time = 170000.000 ps
+#      Expected value = 0000
+#      Real value = 0110
+# ERROR! Vector Mismatch for output port count[3] :: @time = 190000.000 ps
+#      Expected value = 0000
+#      Real value = 1000
+# ERROR! Vector Mismatch for output port lightB[1] :: @time = 220000.000 ps
+#      Expected value = 000
+#      Real value = 010
+# ERROR! Vector Mismatch for output port lightA[0] :: @time = 250000.000 ps
+#      Expected value = 000
+#      Real value = 001
+# ERROR! Vector Mismatch for output port lightB[2] :: @time = 250000.000 ps
+#      Expected value = 000
+#      Real value = 100
+# ERROR! Vector Mismatch for output port lightA[1] :: @time = 330000.000 ps
+#      Expected value = 000
+#      Real value = 010
+#          10 mismatched vectors : Simulation failed !
+# ** Note: $finish    : Waveform1.vwf.vt(337)
+#    Time: 1 us  Iteration: 0  Instance: /traffic_moore2_vlg_vec_tst/tb_out

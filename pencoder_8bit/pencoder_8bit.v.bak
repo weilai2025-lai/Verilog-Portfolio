@@ -1,0 +1,16 @@
+module pencoder_8bit(Din, Dout, valid);
+
+input [7:0]Din;
+output [2:0]Dout;
+output valid;
+
+wire valid0, valid1;
+wire [1:0]Dout0, Dout1;
+assign valid = valid0|valid1;
+assign Dout[2] = valid0;
+
+pencoder_4bit p0(.Din(Din[7:4]),.Dout(Dout0),.valid(valid0));
+pencoder_4bit p1(.Din(Din[3:0]),.Dout(Dout1),.valid(valid1));
+mux2to1 m0(.a(Dout0),.b(Dout1),.sel(valid0),.c(Dout[1:0]));
+
+endmodule

@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Verilog_training/Dff_behavioral/Dff_behavioral.v
+source_file = 1, C:/Verilog_training/Dff_behavioral/Waveform.vwf
+source_file = 1, C:/Verilog_training/Dff_behavioral/db/Dff_behavioral.cbx.xml
+design_name = Dff_behavioral
+instance = comp, \q~output , q~output, Dff_behavioral, 1
+instance = comp, \clk~input , clk~input, Dff_behavioral, 1
+instance = comp, \d~input , d~input, Dff_behavioral, 1
+instance = comp, \q~reg0feeder , q~reg0feeder, Dff_behavioral, 1
+instance = comp, \q~reg0 , q~reg0, Dff_behavioral, 1

@@ -1,0 +1,4 @@
+module Freq_div(fsel, fout);
+
+input [3:0]fsel;
+output 

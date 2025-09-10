@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\traffic_moore2\simulation\qsim
+vtraffic_moore2
+Z1 !s100 XZoN3YS0j5TIm_4T<c^k01
+Z2 I8R21TJ2W4LLc`<d@Mb<kl2
+Z3 V@o`Ij8Jzm5l7Sl;3`Vk8@0
+Z4 dC:\Verilog_training\traffic_moore2\simulation\qsim
+Z5 w1750930463
+Z6 8traffic_moore2.vo
+Z7 Ftraffic_moore2.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|traffic_moore2.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1750930463.581000
+Z12 !s107 traffic_moore2.vo|
+!s101 -O0
+vtraffic_moore2_vlg_check_tst
+!i10b 1
+!s100 bX_8eAoa:FNlKXMPSTW=A3
+IgdaobToF?cLg7:N0ZPHKX0
+Z13 Vb_^ERDc8?RYSfFNae;P@S1
+R4
+Z14 w1750930462
+Z15 8Waveform1.vwf.vt
+Z16 FWaveform1.vwf.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z17 !s108 1750930463.643000
+Z18 !s107 Waveform1.vwf.vt|
+Z19 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R10
+vtraffic_moore2_vlg_sample_tst
+!i10b 1
+Z20 !s100 G[ZaY<Ag8hclo[J1B]6>h0
+Z21 I44WA]Ho9a^<POBD1Z1@K40
+Z22 V09:=zPolWSZ:5RX:@]oIb0
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vtraffic_moore2_vlg_vec_tst
+!i10b 1
+!s100 XdIBmfCO`Kk9GnL@G6@ak1
+IeE2FbFk?hIDGYLmKYiAjU1
+Z23 Vi<YjPYnZcV5DQhIY@cY?T3
+R4
+R14
+R15
+R16
+L0 341
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10

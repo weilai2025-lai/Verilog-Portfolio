@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\mux8to1\simulation\qsim
+vmux8to1
+Z1 !s100 5Bj0?LNn1[CMTi>6;CFDN0
+Z2 IO48Q<lNc]2AiDS773RhBg1
+Z3 VAO^WCNEH;Cem4j3;h2h>63
+Z4 dC:\Verilog_training\mux8to1\simulation\qsim
+Z5 w1749054114
+Z6 8mux8to1.vo
+Z7 Fmux8to1.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|mux8to1.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1749054114.796000
+Z12 !s107 mux8to1.vo|
+!s101 -O0
+vmux8to1_vlg_check_tst
+!i10b 1
+Z13 !s100 ajDdz7Kl;2jlb1BD]8]TY0
+Z14 Ie>J>QRD3UDMN`DWdcGB;Q1
+Z15 V8Vn9_TQ[8Rf_Jick@<TU10
+R4
+Z16 w1749054113
+Z17 8mux8to1.vwf.vt
+Z18 Fmux8to1.vwf.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1749054114.860000
+Z20 !s107 mux8to1.vwf.vt|
+Z21 !s90 -work|work|mux8to1.vwf.vt|
+!s101 -O0
+R10
+vmux8to1_vlg_sample_tst
+!i10b 1
+Z22 !s100 Tn=:aC]>bWnNEUkB75G?T1
+Z23 I2A7k3`F3jPi?hicPQ@G0P2
+Z24 Vl=k;TW]AYA[6OiARzMM_g2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vmux8to1_vlg_vec_tst
+!i10b 1
+!s100 Ra?Nli077OfnSSd]PXKcR2
+I3P@H`05AX`F]PddIc<ZF`3
+Z25 V6m9QM6>Td;^1k5_<mI7Pe0
+R4
+R16
+R17
+R18
+Z26 L0 154
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

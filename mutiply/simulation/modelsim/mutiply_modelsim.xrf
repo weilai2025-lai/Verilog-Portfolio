@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Verilog_training/mutiply/mutiply.v
+source_file = 1, C:/Verilog_training/mutiply/db/mutiply.cbx.xml
+design_name = mutiply
+instance = comp, \uout[0]~output\, uout[0]~output, mutiply, 1
+instance = comp, \uout[1]~output\, uout[1]~output, mutiply, 1
+instance = comp, \uout[2]~output\, uout[2]~output, mutiply, 1
+instance = comp, \uout[3]~output\, uout[3]~output, mutiply, 1
+instance = comp, \a[0]~input\, a[0]~input, mutiply, 1
+instance = comp, \b~input\, b~input, mutiply, 1
+instance = comp, \uout~0\, uout~0, mutiply, 1
+instance = comp, \a[1]~input\, a[1]~input, mutiply, 1
+instance = comp, \a[2]~input\, a[2]~input, mutiply, 1
+instance = comp, \a[3]~input\, a[3]~input, mutiply, 1

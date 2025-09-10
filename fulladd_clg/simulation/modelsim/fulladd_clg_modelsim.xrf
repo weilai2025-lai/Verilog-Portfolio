@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Verilog_training/fulladd_clg/fulladd_clg.v
+source_file = 1, C:/Verilog_training/fulladd_clg/db/fulladd_clg.cbx.xml
+design_name = fulladd_clg
+instance = comp, \s~output\, s~output, fulladd_clg, 1
+instance = comp, \g~output\, g~output, fulladd_clg, 1
+instance = comp, \p~output\, p~output, fulladd_clg, 1
+instance = comp, \c~input\, c~input, fulladd_clg, 1
+instance = comp, \a~input\, a~input, fulladd_clg, 1
+instance = comp, \b~input\, b~input, fulladd_clg, 1
+instance = comp, \s~0\, s~0, fulladd_clg, 1
+instance = comp, \g~0\, g~0, fulladd_clg, 1
+instance = comp, \p~0\, p~0, fulladd_clg, 1

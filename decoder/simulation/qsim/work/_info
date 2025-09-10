@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\decoder\simulation\qsim
+vdecoder
+Z1 !s100 dCA[HLhKA0d2JoenDko100
+Z2 IWMjIkJdkM<5H8lRM=]SAl2
+Z3 VZ1O[<bAbg7c<WJW:A`ING3
+Z4 dC:\Verilog_training\decoder\simulation\qsim
+Z5 w1750575920
+Z6 8decoder.vo
+Z7 Fdecoder.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|decoder.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1750575921.198000
+Z12 !s107 decoder.vo|
+!s101 -O0
+vdecoder_vlg_check_tst
+!i10b 1
+!s100 DbIRK;Nj<Pn=5CR8bWTBW2
+Ia4lQIfi^A1bTIeG_BlR732
+Z13 VkJ1BG;UO6LNTnP7YaJlez1
+R4
+Z14 w1750575919
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z17 !s108 1750575921.279000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vdecoder_vlg_sample_tst
+!i10b 1
+Z20 !s100 R;UCJ2mjlAC`N><6bJ_c@0
+Z21 I=>YTl@^i`kGZgAJ[@20ka3
+Z22 VS<gACR]OA32dL4ad0S9UE2
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vdecoder_vlg_vec_tst
+!i10b 1
+!s100 R5;C<D884JG^>?;9DKSBH3
+I@8H3o7FofegU2Vhldhl3V2
+Z23 V9_SfU7d^<;VG3[I?m[kb82
+R4
+R14
+R15
+R16
+Z24 L0 277
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10

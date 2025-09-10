@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\Dff_behavioral\simulation\qsim
+vDff_behavioral
+Z1 IFeL?EiOAELUJ<ooJoR^6Z2
+Z2 VQ=BIB1YLNYjIZi0f6^R]C3
+Z3 dC:\Verilog_training\Dff_behavioral\simulation\qsim
+Z4 w1750161651
+Z5 8Dff_behavioral.vo
+Z6 FDff_behavioral.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@dff_behavioral
+!i10b 1
+Z10 !s100 2i[FVZcKIB4GM^ZaBK4P62
+!s85 0
+Z11 !s108 1750161652.537000
+Z12 !s107 Dff_behavioral.vo|
+Z13 !s90 -work|work|Dff_behavioral.vo|
+!s101 -O0
+vDff_behavioral_vlg_check_tst
+!i10b 1
+!s100 99gL?mmM:YBkcO<7KR<IR2
+IUC>eIf5eN8QM?jc5zn_TT1
+V4NZ8X>4h^Vj0oIO;ig9k03
+R3
+Z14 w1750161650
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1750161652.608000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+n@dff_behavioral_vlg_check_tst
+vDff_behavioral_vlg_sample_tst
+!i10b 1
+!s100 VWKn>N`i_m`aU7CcDfCiR1
+I=Zh3m9MHBUBM7Q0DMAIdU2
+V[9]9M9dEeGgl@6C]h=Yce1
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@dff_behavioral_vlg_sample_tst
+vDff_behavioral_vlg_vec_tst
+!i10b 1
+!s100 T_477J6TQ77cUShRGN1KB0
+IokPH[Uc?z9Cm?gGR66W[c3
+V<3Vm8:eV;mJPJT`lDIU@b3
+R3
+R14
+R15
+R16
+L0 154
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@dff_behavioral_vlg_vec_tst

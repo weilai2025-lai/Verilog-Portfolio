@@ -1,0 +1,13 @@
+module D_Latch(d, en, q, q_bar);
+
+input d, en;
+output q, q_bar;
+
+wire s, r;
+
+assign s = d&en;
+assign r = (!d)&en;
+
+SR_Lacth s0(.s(s),.r(r),.q(q),q_bar(q_bar));
+
+endmodule

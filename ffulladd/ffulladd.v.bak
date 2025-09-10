@@ -1,0 +1,35 @@
+module ffulladd(a, b, cin, s, cout);
+
+input [3:0]a;
+input [3:0]b;
+input cin;
+output cout;
+output [3:0]s;
+
+wire f0_out, f1_out, f2_out,
+
+fulladd f0(.a(a[0]), 
+           .b(b[0]),
+			  .cin(cin),
+			  .s(s[0]),
+			  .cout(f0_out));
+
+fulladd f1(.a(a[1]), 
+           .b(b[1]),
+			  .cin(f0_out),
+			  .s(s[1]),
+			  .cout(f1_out));
+			  
+fulladd f2(.a(a[2]), 
+           .b(b[2]),
+			  .cin(f1_out),
+			  .s(s[2]),
+			  .cout(f2_out));
+			  
+fulladd f3(.a(a[3]), 
+           .b(b[3]),
+			  .cin(f2_out),
+			  .s(s[3]),
+			  .cout(c_out));
+			  
+endmodule

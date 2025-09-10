@@ -1,0 +1,1 @@
+因為我是基於cyclone iii板子的特性去畫卡諾圖的, led是共陽極, 所以實際上要output = 0燈才會亮. 所以timing simulation的結果會剛好相反!

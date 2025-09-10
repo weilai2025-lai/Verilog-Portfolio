@@ -1,0 +1,11 @@
+module fulladd_seg(a, b, m, c, s);
+
+input a, b, m;
+output c, s;
+wire nb;
+
+assign nb = b^m;
+assign s = a^nb^m;
+assign c = (a&b)|(b&m)|(a&m);
+
+endmodule

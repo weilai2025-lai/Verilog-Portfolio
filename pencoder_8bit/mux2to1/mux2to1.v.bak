@@ -1,0 +1,9 @@
+module mux2to1(a, b, sel, c);
+
+input [1:0]a, b;
+input sel;
+output [1:0]c;
+
+assign c[1:0] = (a[1:0]&sel)|(b[1:0]&(!sel));
+
+endmodule

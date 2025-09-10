@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Verilog_training/D_ff/SR_Latch/SR_Latch.v
+source_file = 1, C:/Verilog_training/D_ff/D_Latch/D_Latch.v
+source_file = 1, C:/Verilog_training/D_ff/D_ff.v
+source_file = 1, C:/Verilog_training/D_ff/db/D_ff.cbx.xml
+design_name = D_ff
+instance = comp, \q~output\, q~output, D_ff, 1
+instance = comp, \q_bar~output\, q_bar~output, D_ff, 1
+instance = comp, \clk~input\, clk~input, D_ff, 1
+instance = comp, \clk~inputclkctrl\, clk~inputclkctrl, D_ff, 1
+instance = comp, \d~input\, d~input, D_ff, 1
+instance = comp, \d0|sr|q~1\, d0|sr|q~1, D_ff, 1
+instance = comp, \d1|sr|q~1\, d1|sr|q~1, D_ff, 1
+instance = comp, \d1|sr|q_bar~0\, d1|sr|q_bar~0, D_ff, 1

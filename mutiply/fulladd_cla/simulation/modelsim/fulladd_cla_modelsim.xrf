@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Verilog_training/mutiply/fulladd_cla/fulladd_cla.v
+source_file = 1, C:/Verilog_training/mutiply/fulladd_cla/db/fulladd_cla.cbx.xml
+design_name = fulladd_cla
+instance = comp, \g~output\, g~output, fulladd_cla, 1
+instance = comp, \p~output\, p~output, fulladd_cla, 1
+instance = comp, \s~output\, s~output, fulladd_cla, 1
+instance = comp, \a~input\, a~input, fulladd_cla, 1
+instance = comp, \b~input\, b~input, fulladd_cla, 1
+instance = comp, \g~0\, g~0, fulladd_cla, 1
+instance = comp, \p~0\, p~0, fulladd_cla, 1
+instance = comp, \cin~input\, cin~input, fulladd_cla, 1
+instance = comp, \s~0\, s~0, fulladd_cla, 1

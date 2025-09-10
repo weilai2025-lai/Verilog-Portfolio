@@ -1,0 +1,24 @@
+|traffic_moore
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+clk => count[6].CLK
+clk => count[7].CLK
+clk => current~1.DATAIN
+rst_p => count[0].ACLR
+rst_p => count[1].ACLR
+rst_p => count[2].ACLR
+rst_p => count[3].ACLR
+rst_p => count[4].ACLR
+rst_p => count[5].ACLR
+rst_p => count[6].ACLR
+rst_p => count[7].ACLR
+rst_p => current~3.DATAIN
+light[0] <= light[0].DB_MAX_OUTPUT_PORT_TYPE
+light[1] <= light[1].DB_MAX_OUTPUT_PORT_TYPE
+light[2] <= light[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

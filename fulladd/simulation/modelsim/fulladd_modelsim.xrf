@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Verilog_training/fulladd/fulladd.v
+source_file = 1, C:/Verilog_training/fulladd/db/fulladd.cbx.xml
+design_name = fulladd
+instance = comp, \s~output\, s~output, fulladd, 1
+instance = comp, \cout~output\, cout~output, fulladd, 1
+instance = comp, \cin~input\, cin~input, fulladd, 1
+instance = comp, \a~input\, a~input, fulladd, 1
+instance = comp, \b~input\, b~input, fulladd, 1
+instance = comp, \s~0\, s~0, fulladd, 1
+instance = comp, \cout~0\, cout~0, fulladd, 1

@@ -1,0 +1,31 @@
+# do bounce_avoid.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bounce_avoid
+# 
+# Top level modules:
+# 	bounce_avoid
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bounce_avoid_vlg_sample_tst
+# -- Compiling module bounce_avoid_vlg_check_tst
+# -- Compiling module bounce_avoid_vlg_vec_tst
+# 
+# Top level modules:
+# 	bounce_avoid_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.bounce_avoid_vlg_vec_tst 
+# Loading work.bounce_avoid_vlg_vec_tst
+# Loading work.bounce_avoid
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading work.bounce_avoid_vlg_sample_tst
+# Loading work.bounce_avoid_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# Simulation passed !
+# ** Note: $finish    : Waveform3.vwf.vt(152)
+#    Time: 650 ns  Iteration: 0  Instance: /bounce_avoid_vlg_vec_tst/tb_out

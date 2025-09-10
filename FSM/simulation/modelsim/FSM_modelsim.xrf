@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Verilog_training/FSM/FSM.v
+source_file = 1, C:/Verilog_training/FSM/db/FSM.cbx.xml
+design_name = FSM
+instance = comp, \door_action~output\, door_action~output, FSM, 1
+instance = comp, \clk~input\, clk~input, FSM, 1
+instance = comp, \rst_n~input\, rst_n~input, FSM, 1
+instance = comp, \button~input\, button~input, FSM, 1

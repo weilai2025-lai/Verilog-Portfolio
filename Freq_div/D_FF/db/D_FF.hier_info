@@ -1,0 +1,6 @@
+|D_FF
+din => dout~reg0.DATAIN
+clk => dout~reg0.CLK
+dout <= dout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

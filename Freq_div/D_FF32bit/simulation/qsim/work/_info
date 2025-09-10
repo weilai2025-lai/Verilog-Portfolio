@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\Freq_div\D_FF32bit\simulation\qsim
+vD_FF32bit
+Z1 IO?eBQhRUJFXDSb4[O[@<Q3
+Z2 V2E2gFLMnYlJmC<FoTM?2^0
+Z3 dC:\Verilog_training\Freq_div\D_FF32bit\simulation\qsim
+Z4 w1750579485
+Z5 8D_FF32bit.vo
+Z6 FD_FF32bit.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@d_@f@f32bit
+!i10b 1
+Z10 !s100 1YM<i_Pe[c7@@106<FG_31
+!s85 0
+Z11 !s108 1750579486.324000
+Z12 !s107 D_FF32bit.vo|
+Z13 !s90 -work|work|D_FF32bit.vo|
+!s101 -O0
+vD_FF32bit_vlg_check_tst
+!i10b 1
+!s100 e71hYzLG=6[CQ6T0LUhl]2
+Id9TlE<>@cz<kN2@nS?lg62
+VKbZ5egU=mDVoa[o?9PSWg1
+R3
+Z14 w1750579484
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1750579486.408000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+n@d_@f@f32bit_vlg_check_tst
+vD_FF32bit_vlg_sample_tst
+!i10b 1
+!s100 nL[`9zRdzm0a__k3SOQ`O1
+IY=@W>Kg>iI@onVjiKacKY3
+V;4g3mh_JYMaTeUNO80_5j2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@d_@f@f32bit_vlg_sample_tst
+vD_FF32bit_vlg_vec_tst
+!i10b 1
+!s100 2^>_P5M6nAC3A4=A<4AzM1
+IE`T<XbG>mQN9:@PZkDB[D3
+VUk8Z0ZGOM7;a6dgC=dINd3
+R3
+R14
+R15
+R16
+L0 715
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@d_@f@f32bit_vlg_vec_tst

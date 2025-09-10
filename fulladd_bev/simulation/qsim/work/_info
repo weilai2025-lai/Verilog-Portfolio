@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\fulladd_bev\simulation\qsim
+vfulladd_bev
+Z1 !s100 [mn:<c_HBoT`WQHNZ?m[m3
+Z2 IZiddC[b`0;AlkB@URUJ0k3
+Z3 V;]1AbaJKBRD6]aU=CHY<:1
+Z4 dC:\Verilog_training\fulladd_bev\simulation\qsim
+Z5 w1751169476
+Z6 8fulladd_bev.vo
+Z7 Ffulladd_bev.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|fulladd_bev.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1751169476.956000
+Z12 !s107 fulladd_bev.vo|
+!s101 -O0
+vfulladd_bev_vlg_check_tst
+!i10b 1
+Z13 !s100 BKJS3YY1M@Cf@:M9=zV=W3
+Z14 IOmg]z8kT2AK_`mZCXgCUf1
+Z15 VT3YMh06d:TCS6hW5zG[fk0
+R4
+Z16 w1751169475
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z19 !s108 1751169477.023000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vfulladd_bev_vlg_sample_tst
+!i10b 1
+Z22 !s100 @Hnm`R_]hAUbAE99^BJi`3
+Z23 IGZmgdf>_NR_KeRBcb=HS32
+Z24 VY1RA3GXbAazc@zlS3V9_n1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vfulladd_bev_vlg_vec_tst
+!i10b 1
+!s100 oHQY[SmHfaQ[<2Z6Xl_^n0
+I<7keL1VO0Y==5<iYLLTVO2
+Z25 VQo`hc?biEmX929BUQz<;e2
+R4
+R16
+R17
+R18
+Z26 L0 452
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

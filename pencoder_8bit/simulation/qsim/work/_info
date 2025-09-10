@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\pencoder_8bit\simulation\qsim
+vpencoder_8bit
+Z1 IF@nV?cU;7l0LO<TX4ALf92
+Z2 Vg?KjmG`^Fkb3^hl294Woj3
+Z3 dC:\Verilog_training\pencoder_8bit\simulation\qsim
+Z4 w1749876164
+Z5 8pencoder_8bit.vo
+Z6 Fpencoder_8bit.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 QZE:6H;S@RVQ9>?YR<JjZ2
+!s85 0
+Z10 !s108 1749876165.175000
+Z11 !s107 pencoder_8bit.vo|
+Z12 !s90 -work|work|pencoder_8bit.vo|
+!s101 -O0
+vpencoder_8bit_vlg_check_tst
+!i10b 1
+!s100 URZHL[W^6UXITGYE>gmSO2
+Ih`f1ebO4Tc2P[`DMga:0D1
+V2KH>hV9zE>B8G3]nDziTm0
+R3
+Z13 w1749876163
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1749876165.245000
+Z17 !s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+vpencoder_8bit_vlg_sample_tst
+!i10b 1
+!s100 kKPGb4Fam0h;<RGg=2>Aa0
+I_dVSR[1oZ[D1UYo]5H8cn2
+V4j1n]mSI5ZYUT<MVZG>g_2
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vpencoder_8bit_vlg_vec_tst
+!i10b 1
+!s100 Z4cg9Qh?o9:n<CGGQnW0?1
+If_f=ZfooPX5>M<hFTR[^X2
+VBX2^16GECGc^bhLoIG4fX1
+R3
+R13
+R14
+R15
+L0 214
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

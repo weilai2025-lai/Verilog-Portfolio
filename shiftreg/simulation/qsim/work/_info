@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\shiftreg\simulation\qsim
+vshiftreg
+Z1 I;W3ITdg:9DQNnIc^hU@852
+Z2 V1dGY<az??8SA>l`J;l7zX1
+Z3 dC:\Verilog_training\shiftreg\simulation\qsim
+Z4 w1751013971
+Z5 8shiftreg.vo
+Z6 Fshiftreg.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|shiftreg.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 `J7W>S;jH<GGFZzAh2Giz0
+!s85 0
+Z11 !s108 1751013972.113000
+Z12 !s107 shiftreg.vo|
+!s101 -O0
+vshiftreg_vlg_check_tst
+!i10b 1
+!s100 ^3cJeOK`>65`nUY6d^?An3
+IXkM;_`LiM>LCYN2_bV[oA2
+Z13 VA3S@4aHz^22f0iY>>KO:c3
+R3
+Z14 w1751013970
+Z15 8Waveform1.vwf.vt
+Z16 FWaveform1.vwf.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1751013972.175000
+Z18 !s107 Waveform1.vwf.vt|
+Z19 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R9
+vshiftreg_vlg_sample_tst
+!i10b 1
+!s100 e0gXPH_3L=6gaBmdbQRXz2
+IM?W@@5E>:NhRmi0:OkoN[3
+Z20 V:_b7V0I=emjd:g@Ql^C?e0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+vshiftreg_vlg_vec_tst
+!i10b 1
+!s100 k`<PS[Xa6B5zZ?[L38kiG3
+IT;5<>KUcZOdakjLYc_XS60
+Z21 V:1DA7?=RNzFQFA?Xb`9822
+R3
+R14
+R15
+R16
+Z22 L0 310
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9

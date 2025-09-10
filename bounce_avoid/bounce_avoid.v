@@ -1,0 +1,93 @@
+module bounce_avoid(din, clk, rst_p, dout);
+
+input din, clk, rst_p;
+output reg dout;
+reg [2:0]current, next;
+parameter s0 = 3'd0;
+parameter s1 = 3'd1;
+parameter s2 = 3'd2;
+parameter s3 = 3'd3;
+parameter s4 = 3'd4;
+parameter s5 = 3'd5;
+
+always @(posedge clk or posedge rst_p)
+begin
+	if(rst_p) begin
+		current <= s5;
+		end
+	else begin
+		current <= next;
+		end
+end
+
+//output
+always @(*)
+begin
+	case(current)
+	s0: dout = 1;
+	s1: dout = 1;
+	s2: dout = 1;
+	s3: dout = 1;
+	s4: dout = 1;
+	s5: dout = 0;
+	default: dout  = 0;
+	endcase
+end
+
+//next_step
+always @(*)
+begin
+	case(current)
+	s0: begin if(din == 0) begin
+			next = s1;
+			end
+			else begin
+			next = s0;
+			end
+		end
+	
+	s1: begin if(din == 0) begin
+			next = s2;
+			end
+			else begin
+			next = s0;
+			end
+		end
+		
+	s2: begin if(din == 0) begin
+			next = s3;
+			end
+			else begin
+			next = s0;
+			end
+		end
+		
+	s3: begin if(din == 0) begin
+			next = s4;
+			end
+			else begin
+			next = s0;
+			end
+		end
+		
+	s4: begin if(din == 0) begin
+			next = s5;
+			end
+			else begin
+			next = s0;
+			end
+		end
+		
+	s5: begin if(din == 0) begin
+			next = s5;
+			end
+			else begin
+			next = s0;
+			end
+		end
+	default: next = s5;
+	endcase
+end
+
+endmodule
+
