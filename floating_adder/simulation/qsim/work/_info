@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\floating_adder\simulation\qsim
+vfloating_adder
+Z1 IkADVaM:on<fK[INO;j1?93
+Z2 ViERnn`TDknRCMb`H4lX>`1
+Z3 dC:\Verilog_training\floating_adder\simulation\qsim
+Z4 w1757685815
+Z5 8floating_adder.vo
+Z6 Ffloating_adder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|floating_adder.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 Ra5<WSFOXJSOEo<j?7V021
+!s85 0
+Z11 !s108 1757685815.590000
+Z12 !s107 floating_adder.vo|
+!s101 -O0
+vfloating_adder_vlg_check_tst
+!i10b 1
+Z13 !s100 kB7MU<LbjNnUCz8KODioG2
+Z14 IlSB?1LEDD]_AZDFJ@I_fd2
+Z15 VPi5NTHC:BP0^W;F>:MICb3
+R3
+Z16 w1757685814
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1757685815.671000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+vfloating_adder_vlg_sample_tst
+!i10b 1
+Z22 !s100 HPCWXWb>mb_3TjlT^KzMm3
+Z23 Iz[a<]f:a^D0<XaEcmd1=g1
+Z24 VA:T]V5m::hLcNDko[aZXU3
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vfloating_adder_vlg_vec_tst
+!i10b 1
+Z25 !s100 WX]F50P;LW^d?3:zm23040
+Z26 ILYf>[zneacT6K4Wbb8j[b0
+Z27 VFD4RIb4diWM_k5Mzh1HiG1
+R3
+R16
+R17
+R18
+Z28 L0 711
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

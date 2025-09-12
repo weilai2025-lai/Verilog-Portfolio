@@ -1,0 +1,25 @@
+module floating_adder(fa,fb,fs);
+parameter width = 32;
+input [width-1:0]fa,fb;
+output [width-1:0]fs;
+
+wire fa_s,fb_s,fs_s;
+wire [7:0]fa_e,fb_e,fs_e,ex_diff;
+wire [22:0]fa_f,fb_f,fs_f;
+wire [24:0]fa_fex,fb_fex,fb_fsh,fs_fcal;
+
+assign {fa_s,fa_e,fa_f} = (fa[30:23] > fb[30:23])? fa:fb;
+assign {fb_s,fb_e,fb_f} = (fa[30:23] > fb[30:23])? fb:fa;
+assign fs = {fs_s,fs_e,fs_f};
+assign ex_diff = fa_e - fb_e;
+assign fa_fex = {2'b01,fa_f};
+assign fb_fex = {2'b01,fb_f};
+assign fb_fsh = fb_fex >> ex_diff;
+assign fs_fcal = fa_fex + fb_fsh;
+
+assign fs_s = 1'b0;
+assign fs_e = (fs_fcal[24])? fa_e + 8'd1:fa_e;
+assign fs_f = (fs_fcal[24])? fs_fcal[23:1]:fs_fcal[22:0];
+endmodule
+
+

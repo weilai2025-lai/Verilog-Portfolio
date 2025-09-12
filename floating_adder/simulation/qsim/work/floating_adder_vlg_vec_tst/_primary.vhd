@@ -1,0 +1,4 @@
+library verilog;
+use verilog.vl_types.all;
+entity floating_adder_vlg_vec_tst is
+end floating_adder_vlg_vec_tst;
