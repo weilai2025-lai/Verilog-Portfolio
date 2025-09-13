@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\Priority_encoder\simulation\qsim
+vPriority_encoder
+Z1 IF`9b=BUb61A>kS9Zkj2D<0
+Z2 Ve^d9TaEW=c:]B6d64hnU22
+Z3 dC:\Verilog_training\Priority_encoder\simulation\qsim
+Z4 w1757728160
+Z5 8Priority_encoder.vo
+Z6 FPriority_encoder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Priority_encoder.vo|
+Z9 o-work work -O0
+Z10 n@priority_encoder
+!i10b 1
+Z11 !s100 Ked0TI?ha[Jl5z1mh38ab0
+!s85 0
+Z12 !s108 1757728161.270000
+Z13 !s107 Priority_encoder.vo|
+!s101 -O0
+vPriority_encoder_vlg_check_tst
+!i10b 1
+Z14 !s100 VU_6586bDZe>[fHA5YRmD2
+Z15 Iz5TRAUIB24CJMnG<eKRKE0
+Z16 VA4m[=Nm;aQP<mnF<7[@3o2
+R3
+Z17 w1757728159
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z20 !s108 1757728161.336000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+Z23 n@priority_encoder_vlg_check_tst
+vPriority_encoder_vlg_sample_tst
+!i10b 1
+Z24 !s100 WnA3hJP_I]B9V2:K2dR593
+Z25 Ijkf]nIVCWgC^eW`ZTU^I91
+Z26 V@e[F[IiZQOZ=XNLhGSCVI3
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@priority_encoder_vlg_sample_tst
+vPriority_encoder_vlg_vec_tst
+!i10b 1
+Z28 !s100 2N4=^l9W:h8_W[o^3:cRc3
+Z29 IoQFS1=898zCBRG76TT7eE2
+Z30 V0_`2N4EJ<jmDOLWYS1]OH0
+R3
+R17
+R18
+R19
+Z31 L0 250
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@priority_encoder_vlg_vec_tst

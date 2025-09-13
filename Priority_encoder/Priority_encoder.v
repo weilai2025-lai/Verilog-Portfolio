@@ -1,0 +1,20 @@
+module Priority_encoder(din,dout,valid);
+parameter width_in = 32;
+parameter width_out = 5;
+input [width_in-1:0]din;
+output reg[width_out-1:0]dout;
+output reg valid;
+integer i;
+
+always @(*)
+begin
+	valid <= 0;
+	dout <= 'd0;
+	for(i=0; i<width_in;i=i+1)begin
+		if(din[i])begin
+			valid <= 1;
+			dout <= i;
+		end
+	end
+end
+endmodule
