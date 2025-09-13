@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\frequency_divider\simulation\qsim
+vfrequency_divider
+Z1 IgdJb_BzbFZkHOCMzFmBWW3
+Z2 VfMIflAWodDjI_dcj9cclj2
+Z3 dC:\Verilog_training\frequency_divider\simulation\qsim
+Z4 w1757791743
+Z5 8frequency_divider.vo
+Z6 Ffrequency_divider.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 glz3giLImGMT24g5hXz]33
+!s85 0
+Z10 !s108 1757791744.280000
+Z11 !s107 frequency_divider.vo|
+Z12 !s90 -work|work|frequency_divider.vo|
+!s101 -O0
+vfrequency_divider_vlg_check_tst
+!i10b 1
+!s100 TFZU`I6ZD6M`coZhDA<MV0
+IYOQ0YCAkF`HHIXkR2dGNF3
+VS<_b6aklghL<0zkN1lkEP1
+R3
+Z13 w1757791742
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1757791744.344000
+Z17 !s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+vfrequency_divider_vlg_sample_tst
+!i10b 1
+!s100 f;d0IOYKo2gf?;@67<i<j3
+I<A=DcaH^OCR6;=TP8jVY31
+V4?d?U=TCCjPT1o14mgB`c3
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vfrequency_divider_vlg_vec_tst
+!i10b 1
+!s100 <Q[Fk7mG?d6`2Tl]d4<;d1
+IV39aAR:kDJ@<VD:IoVJIi0
+V[YC]6l^Em9J3W1<=;=j?I3
+R3
+R13
+R14
+R15
+L0 156
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

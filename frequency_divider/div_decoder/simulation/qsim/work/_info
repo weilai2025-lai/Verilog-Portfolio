@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Verilog_training\frequency_divider\div_decoder\simulation\qsim
+vdiv_decoder
+Z1 IdeGlo]CeV@1amE^gUe;B:2
+Z2 V>lC[l@f_<:7=]9YHVM_9]1
+Z3 dC:\Verilog_training\frequency_divider\div_decoder\simulation\qsim
+Z4 w1757790682
+Z5 8div_decoder.vo
+Z6 Fdiv_decoder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 oQVhjOL3ES>8JZCA2zD^Z3
+!s85 0
+Z10 !s108 1757790683.495000
+Z11 !s107 div_decoder.vo|
+Z12 !s90 -work|work|div_decoder.vo|
+!s101 -O0
+vdiv_decoder_vlg_check_tst
+!i10b 1
+!s100 `E^6SdDR5aLBCnjVa3SIm1
+IgC[KXHkV16Q@[GoN`@KWV3
+Va?HV_QHZ4zTeoE>A<djz52
+R3
+R4
+Z13 8Waveform.vwf.vt
+Z14 FWaveform.vwf.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z15 !s108 1757790683.575000
+Z16 !s107 Waveform.vwf.vt|
+Z17 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+vdiv_decoder_vlg_sample_tst
+!i10b 1
+!s100 Q`3P6:XcWf8Y0Wh?afLhY0
+IGbAEA3>7Um6An]9Q7@RGL0
+VC5Q2c4InTIcdQJ966aTDn0
+R3
+R4
+R13
+R14
+L0 29
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+R8
+vdiv_decoder_vlg_vec_tst
+!i10b 1
+!s100 j=CdTIokCaJG>FF0Co[KF1
+IW:A[E8[oE_[O39kg8139`1
+VQ@P445gSMK:lQJC0Y?lNo0
+R3
+R4
+R13
+R14
+L0 709
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+R8

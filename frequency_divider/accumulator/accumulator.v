@@ -1,0 +1,16 @@
+module accumulator(clk,rst,w_en,acc_out);
+parameter width = 32;
+input clk,rst,w_en;
+output reg[width-1:0]acc_out;
+
+always @(posedge clk)
+begin
+	if(rst) begin
+		acc_out <= 'd0;
+	end
+	else begin
+		acc_out <= acc_out + w_en;
+	end
+end
+
+endmodule
